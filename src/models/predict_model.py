@@ -4,7 +4,6 @@ import numpy as np
 import torch
 
 from src.models.model import MyAwesomeModel
-#from data.raw import test.npz
 
 def predict() -> None:
     parser = argparse.ArgumentParser(description="Training arguments")
