@@ -19,7 +19,7 @@ def predict() -> None:
     model.load_state_dict(torch.load(args.model_checkpoint))
     model = model.to(device)
 
-    imgs = np.load(args.data_to_predict)
+    imgs = np.load(args.data_to_predict)   
     imgs = torch.tensor(imgs, dtype=torch.float, device=device)
 
     log_probs = model(imgs)
