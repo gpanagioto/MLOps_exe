@@ -4,7 +4,7 @@ import numpy as np
 import torch
 
 from src.models.model import MyAwesomeModel
-
+#from data.raw import test.npz
 
 def predict() -> None:
     parser = argparse.ArgumentParser(description="Training arguments")
@@ -19,8 +19,8 @@ def predict() -> None:
     model.load_state_dict(torch.load(args.model_checkpoint))
     model = model.to(device)
 
-    imgs = np.load(args.data_to_predict)   
-    imgs = torch.tensor(imgs, dtype=torch.float, device=device)
+    imgs = np.load(args.data_to_predict)['images']
+    imgs = torch.tensor(imgs, dtype=torch.float, device=device).reshape(-1, 1, 28, 28)
 
     log_probs = model(imgs)
     prediction = log_probs.argmax(dim=-1)
