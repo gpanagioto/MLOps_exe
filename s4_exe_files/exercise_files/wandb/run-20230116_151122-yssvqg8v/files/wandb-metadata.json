@@ -1,0 +1,77 @@
+{
+    "os": "Linux-5.15.0-58-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2023-01-16T14:11:23.471638",
+    "startedAt": "2023-01-16T14:11:22.768471",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "/home/georgep/GitHub/MLOps2023/MLOps_exe/s4_exe_files/exercise_files/vae_mnist_working.py",
+    "codePath": "s4_exe_files/exercise_files/vae_mnist_working.py",
+    "git": {
+        "remote": "git@github.com:gpanagioto/MLOps_exe.git",
+        "commit": "b8701a22c21a6806fac88382fd6cf274d880a9eb"
+    },
+    "email": "ge.panagioto@gmail.com",
+    "root": "/home/georgep/GitHub/MLOps2023/MLOps_exe",
+    "host": "georgep-Latitude-5490",
+    "username": "georgep",
+    "executable": "/home/georgep/anaconda3/envs/MLOps/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2.324375,
+        "min": 400.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 0.799,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1.8,
+            "min": 400.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "total": 233.17998886108398,
+        "used": 135.96755599975586
+    },
+    "memory": {
+        "total": 15.487010955810547
+    }
+}
