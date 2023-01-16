@@ -1,0 +1,50 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+  ],
+  "traceEvents": [
+  {
+    "name": "process_name", "ph": "M", "ts": 1673874877499182, "pid": 32622, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1673874877499182, "pid": 32622, "tid": 0,
+    "args": {
+      "labels": "CPU"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1673874877499182, "pid": 32622, "tid": 0,
+    "args": {
+      "sort_index": 32622
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1673874877498943, "dur": 327,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1673874877498943,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 1673874877498943
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1673874877499673
+  }
+  ],
+  "traceName": "./log/resnet18/georgep-Latitude-5490_32622.1673874877500.pt.trace.json"
+}
